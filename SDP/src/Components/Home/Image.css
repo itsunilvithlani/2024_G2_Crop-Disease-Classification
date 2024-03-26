@@ -1,0 +1,55 @@
+.image-upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .selected-image,
+  .default-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selected-image img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .default-image img {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .selected-image button,
+  .default-image button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selected-image1 button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .selected-image button:hover,
+  .default-image button:hover {
+    background-color:  #50c878d0; 
+  }

@@ -2,5 +2,3 @@ Backend/node_modules
 Backend/package-lock.json
 SDP/node_modules
 SDP/package-lock.json
-SDP/src/Components/Login
-SDP/src/Components/Home

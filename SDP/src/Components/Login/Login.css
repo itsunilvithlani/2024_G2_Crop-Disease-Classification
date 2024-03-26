@@ -1,0 +1,36 @@
+ .con{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain1{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 2rem ;
+}
+
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1221{
+    width: inherit;
+    background-color: green;
+    border: none;
+    border-radius: 2px ;
+}
+
+
+@media(max-width:450px) {
+    .contain1{
+        width: 100vw;
+        height: 40vh;
+        border-radius: 2rem ;
+    }
+}
