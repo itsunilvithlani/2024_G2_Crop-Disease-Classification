@@ -1,0 +1,38 @@
+/* LeafDetectionCard.css */
+.card2 {
+    background: rgb(235,238,235);
+    background-color: #fcffe3;
+    border: 3px solid #262e26;
+    border-radius: 8px;
+   
+    /* padding: 20px; */
+    margin: 20px;
+    transition: box-shadow 0.3s ease;
+    width: 350px; /* Set a fixed width for each card */
+    height: 200px; /* Set a fixed height for each card */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    display: inline-block;
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  
+  .card2 h3 {
+    margin-bottom: 10px; /* Add space between h3 and p */
+    color: #000000;
+  }
+  
+  .card2 p {
+    margin: 0; /* Reset margin to ensure proper layout */
+    color: #362c2c;
+    text-align: center;
+  }
+  
+  .card2:hover {
+    box-shadow: 8px 8px 12px #259082;
+   
+  }
+  
+  /* Arrange cards in rows of three */
+  .App {
+    text-align: center; /* Center-align the cards in the container */
+  }
+  

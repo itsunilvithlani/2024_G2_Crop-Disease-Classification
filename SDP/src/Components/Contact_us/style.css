@@ -1,0 +1,87 @@
+/* Basic styling for the ContactInfo component */
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%; /* Set the width to 100% to take the full width of the page */
+
+}
+
+
+.about-drplant {
+
+text-align: center;
+margin-bottom: 20px;
+font-size: 24px;
+
+width: 90%;
+max-height: 100%;
+background-color: rgba(0, 0, 0, 0.626);
+color: white;
+padding: 20px;
+
+}
+
+.contact-box h1{
+font-size: 40px;
+background-color: #3f90edac;
+}
+
+.contact-box {
+border: 1px solid #ccc; /* Adjust border styles as needed */
+
+margin-bottom: 20px;
+width: 93%; /* Set the width to 100% to take the full width of the page */
+
+background-color: rgba(119, 189, 219, 0.192);
+}
+.DrPlant{
+margin-left: 20%;
+width: 60%;
+}
+
+.contact-details {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 50px;
+}
+
+.email,
+.social-media-icons,
+.phone {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 10px;
+
+}
+
+.email label,
+.social-media-icons label,
+.phone label {
+font-weight: bold;
+margin-right: 10px;
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+.email span,
+.phone span {
+margin-left: 10px;
+font-size: 25px;
+
+}
+.icon{
+display: flex;
+flex-direction: row;
+}
+
+.social-media-icons a {
+margin: 0 10px;
+color: linear-gradient(45deg, #ff8a00, #e52e71);
+/* Adjust the color as needed */
+font-size:25px;
+}

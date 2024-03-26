@@ -1,0 +1,66 @@
+.info {
+  height: auto; /* Allow content to expand vertically */
+  width: 100%;
+  background: rgb(235, 238, 235);
+  background-color:  #9dc1c1b5; 
+  display: flex;
+  border-radius: 10px ;
+  flex-direction: column;
+  /* Other styles as needed */
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+}
+
+.f,
+.s,
+.t {
+  text-align: center;
+  flex: 1; /* Initial flex value for larger screens */
+  margin: 10px; /* Adjust margin as needed */
+}
+
+
+/* Media queries for responsive behavior */
+@media only screen and (max-width: 768px) {
+  /* For smaller screens (up to 768px) */
+  .detail {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .f,
+  .s,
+  .t {
+    flex: 0 0 100%; /* Set flex-basis to 100% for equal width */
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* For medium screens (768px to 1024px) */
+  .detail {
+    flex-direction: row; /* Revert to row layout */
+  }
+
+  .f,
+  .s,
+  .t {
+    flex: 1; /* Restore initial flex value */
+  }
+}
+.HIW{
+  margin: 20px;
+}
+
+.Content{
+  border-radius: 10px ;
+  background-color:    #9dc1c1b5 ; 
+}

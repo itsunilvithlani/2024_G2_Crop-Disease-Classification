@@ -1,0 +1,34 @@
+.none{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:auto;
+    font-weight: 700;
+}
+.heading-subscribe{
+    margin: 12vh 0vh;
+}
+.card-subscribe{
+    width: auto;
+    height:auto;
+    box-shadow: 2px black;
+    display: flex;
+    
+}
+.card-sub{
+    background-color: #0088ff;
+    border-radius: 5px;
+    margin-left: 50px;
+    width: 33%;
+    padding-bottom: 20px;
+}
+.card-sub button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff0a0a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,72 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  
+  .component {
+    display: grid;
+    margin-top: 10px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 20px;
+    /* max-width: 800px; */
+    /* margin: 20px auto; */
+    border-radius: 10px;
+    background-color:  #ffffff; 
+    /* background: rgb(239,248,239); */
+    /* background: linear-gradient(90deg, rgba(234, 247, 234, 0.748) 0%, rgba(166, 241, 239, 0.669) 40%, rgba(193, 253, 180, 0.558) 100%); */
+  }
+  
+  .heading {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .disease-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 95%;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    background-color: #fcffe3;
+    /* background: rgb(235,238,235); */
+    /* background: linear-gradient(90deg, rgba(235, 238, 235, 0.229) 0%, rgba(37, 231, 225, 0.283) 40%, rgba(134, 255, 107, 0.229) 100%); */
+    margin:0% 2%;
+  }
+  .disease-name {
+    margin: 0;
+    cursor: pointer;
+    color: black;
+    font-size: 28px;
+  }
+  
+  .disease-details {
+    display: none;
+  }
+  
+  .disease-details.show {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .disease-details p {
+    margin: 0;
+    color: black;
+    text-align: left; 
+  }
+  .disease-infotext{
+    font-size: 20px;
+  }
+  .disease-imagediv{
+    margin-right: 20px;
+  }
+  .box{
+    display: flex;
+    margin: 20px;
+  }

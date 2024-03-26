@@ -1,0 +1,70 @@
+/* Services.css */
+.all{
+    background-image: linear-gradient(to right, #ffffff4a, #dbe0e44a),url('plant.png');
+    background-size: cover;
+}
+
+.services-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8ab;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-heading {
+text-align: center;
+font-size: 26px;
+margin-bottom: 20px;
+}
+
+.service {
+position: relative;
+border: 1px solid #ddd;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+overflow: hidden;
+cursor: pointer;
+transition: transform 0.3s ease-in-out;
+background-color: rgb(30, 233, 252);
+
+
+}
+
+.service:hover {
+transform: scale(1.05);
+}
+
+.service:before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(to right, #34d8db, #29afb9);
+opacity: 0.8;
+z-index: -1;
+transition: opacity 0.3s ease-in-out;
+}
+
+.service:hover:before {
+opacity: 1;
+}
+
+.service-title {
+color: #000; /* Set font color to black */
+font-size: 22px;
+margin-bottom: 10px;
+z-index: 1;
+}
+
+.service-description {
+color: #000; /* Set font color to black */
+font-size: 18px;
+line-height: 1.6;
+z-index: 1;
+text-align: center;
+}
